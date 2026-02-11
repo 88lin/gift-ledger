@@ -3,7 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>电子礼簿系统 - 专业版</title>
+    <title>专业电子礼簿系统- 红白喜事礼金管理工具</title>
+    <meta name="description" content="完全免费的现代化电子礼簿系统，专为红白喜事设计。支持秒级录入、重名/重复金额检测、语音播报、双屏展示、Excel 与专业 PDF 导出。全量数据本地 AES-256 加密，安全可追溯。" />
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+    <meta name="author" content="茉灵智库" />
+    <meta name="theme-color" content="#B71C1C" />
+    <link rel="canonical" href="https://88lin.github.io/gift-ledger/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://88lin.github.io/gift-ledger/" />
+    <link rel="icon" href="/favicon.svg" sizes="any" />
+    <meta name="keywords" content="电子礼簿,礼金管理系统,红白喜事礼簿,婚礼礼金登记,白事礼簿,礼簿Excel导出,礼簿PDF导出,本地加密礼簿" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="电子礼簿系统" />
+    <meta property="og:url" content="https://88lin.github.io/gift-ledger/" />
+    <meta property="og:title" content="电子礼簿系统 - 红白喜事礼金管理工具" />
+    <meta property="og:description" content="秒级录入、双屏展示、Excel/PDF 报表导出，全量数据本地 AES-256 加密。" />
+    <meta property="og:image" content="https://88lin.github.io/gift-ledger/static/og-libu.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="电子礼簿系统界面预览：礼金录入、展示屏与报表导出" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://88lin.github.io/gift-ledger/" />
+    <meta name="twitter:title" content="电子礼簿系统 - 红白喜事礼金管理工具" />
+    <meta name="twitter:description" content="支持语音播报、双屏展示、Excel/PDF 导出，数据本地加密保存。" />
+    <meta name="twitter:image" content="https://88lin.github.io/gift-ledger/static/og-libu.jpg" />
+    <meta name="twitter:image:alt" content="电子礼簿系统界面截图" />
+
+    <!-- 软件结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "电子礼簿系统",
+      "alternateName": ["礼金管理系统", "电子礼簿"],
+      "url": "https://88lin.github.io/gift-ledger/",
+      "image": "https://88lin.github.io/gift-ledger/static/og-libu.jpg",
+      "description": "专为红白喜事设计的免费电子礼簿系统，支持秒级录入、智能风控、双屏展示、Excel/PDF 导出与本地加密存储。",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "zh-CN",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "featureList": [
+        "全键盘秒级录入",
+        "重名与重复金额检测",
+        "金额中文大写自动生成",
+        "TTS语音播报",
+        "访客副屏实时展示与隐私脱敏",
+        "Excel与专业PDF导出",
+        "修改历史审计留痕",
+        "AES-256本地加密存储"
+      ]
+    }
+    </script>
     <script src="./static/tailwindcss.js"></script>
     <script src="./static/xlsx.full.min.js"></script>
     <script src="./static/crypto-js.min.js"></script>
@@ -3960,22 +4020,22 @@
           <div class="${containerClass}">
             
             <div class="${cardClass}">
-              <h4 class="font-bold text-lg text-gray-800 mb-1">联系作者</h4>
-              <p class="text-md text-gray-500 mb-4">反馈、功能建议 · 交流</p>
+              <h4 class="font-bold text-lg text-gray-800 mb-1">微信公众号</h4>
+              <p class="text-md text-gray-500 mb-4">关注公众号不迷路</p>
               <div class="${imgBoxClass} hover:border-blue-400">
                 <img src="${wechatQrSrc}" alt="微信二维码" class="${imgClass}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                 <div class="absolute inset-0 hidden items-center justify-center text-gray-400 bg-gray-50 text-sm">
                   此处放微信二维码<br>(请替换图片路径)
                 </div>
               </div>
-              <p class="text-sm font-medium text-gray-700 bg-gray-100 px-3 py-1 rounded-full mt-1">微信交流</p>
+              <p class="text-sm font-medium text-emerald-700 bg-emerald-100 border border-emerald-200 px-3 py-1 rounded-full mt-1 hover:bg-emerald-200 transition-colors">扫码关注微信公众号</p>
             </div>
 
             <div class="w-full h-px md:w-px md:h-64 bg-gray-200"></div>
 
             <div class="${cardClass}">
               <h4 class="font-bold text-lg text-gray-800 mb-1">打赏支持</h4>
-              <p class="text-md text-gray-500 mb-4">开源不易，请作者喝杯咖啡</p>
+              <p class="text-md text-gray-500 mb-4">制作不易，请作者喝杯咖啡</p>
 
               <div class="${imgBoxClass} hover:border-red-400">
                 <img src="${payQrSrc}" alt="收款码" class="${imgClass}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
@@ -3990,7 +4050,7 @@
           
           <div class="text-center mt-2 p-3 bg-yellow-50 rounded-lg text-xs text-yellow-700 border border-yellow-200">
             <i class="ri-information-line align-middle mr-1"></i>
-            本程序为开源免费程序，如果您觉得这个系统对您有帮助，欢迎联系作者提建议。
+            如果您觉得这个系统对您有帮助，可以支持一下作者。
           </div>
         `;
           this.ui.showModal("联系开发者", html, [{ text: "关闭", class: "themed-button-secondary border px-6 py-2 rounded-lg" }]);

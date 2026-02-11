@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /screen
+Disallow: /admin
+Disallow: /internal
+
+Sitemap: https://88lin.github.io/gift-ledger/sitemap.xml
